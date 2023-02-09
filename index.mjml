@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+    </mj-attributes>
+    <mj-style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); </mj-style>
+  </mj-head>
+  <mj-body background-color="#F6F6F6">
+    <mj-section>
+      <mj-column>
+        <mj-image src="Logo.png" align="center" width="600px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-weight="300" font-size="36px" line-height="43px" color="#222222" font-family='Open Sans'> Thanks For Your Business! </mj-text>
+        <mj-text font-family='Open Sans' font-weight="400" font-size="28px" line-height="34px" align="center"> Your Order </mj-text>
+        <mj-text padding="13px 0 5px 0" font-family="Open Sans" font-weight="400" font-size="14px" line-height="17px" align="center" color="#999999"> Monday, Dec 28 2015 at 4.13pm </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-table align="center" padding="0 20%">
+          <tr style="border-top:1px solid rgba(0,0,0,.1);height:33px;">
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#222222; paddin-top:8px" width="252px">Something</td>
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#222222; paddin-top:8px" width="100px" align="right">20.00</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.1);height:33px;">
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#222222; paddin-top:8px" width="252px">Something else</td>
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#222222; paddin-top:8px" width="100px" align="right">10.00</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.1);height:33px;">
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#222222; paddin-top:8px" width="252px">Something else that is realy good</td>
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#222222; paddin-top:8px" width="100px" align="right">4.00</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.1);height:33px;">
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#999999; paddin-top:8px" width="252px">Subtotal</td>
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#999999; paddin-top:8px" width="100px" align="right">34.00</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.1);height:33px;">
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#999999; paddin-top:8px" width="252px">Tax</td>
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#999999; paddin-top:8px" width="100px" align="right">3.00</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.1);height:33px;">
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#999999; paddin-top:8px" width="252px">Other hidden fee</td>
+            <td style="font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:400; color:#999999; paddin-top:8px" width="100px" align="right">4.00</td>
+          </tr>
+          <tr style="border-top:2px solid black;border-bottom:2px solid black;">
+            <td style="padding:8px 0;font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:700;">Total</td>
+            <td style="padding:8px 0;font-family:'Open Sans'; font-size:14px; line-height:17px; font-weight:700;" align="right">$42.00</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="352px">
+        <mj-text font-family="Open Sans" font-size="28px" line-height="34px" font-weight="400" align="center"> Your Details </mj-text>
+        <mj-table>
+          <tr style="border-top:1px solid rgba(0,0,0,0.1)">
+            <td style="vertical-align:top;padding:8px 0;font-family:'Open Sans';font-size:14px;line-height:17px;font-weight:400;">
+              Shipping to
+            </td>
+             <td style="padding:8px 0;font-family:'Open Sans';font-size:14px;line-height:17px;font-weight:400;">
+               Richard Starkey <br/>
+               22 23rd Street  <br/>
+               San Francisco  <br/>
+               CA 94107 <br/>
+            </td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,0.1)">
+            <td style="vertical-align:top;font-family:'Open Sans';font-size:14px;line-height:17px;font-weight:400;">
+              Billed to
+            </td>
+             <td style="font-family:'Open Sans';font-size:14px;line-height:17px;font-weight:400;" >
+              Visa <br/>
+Ending in *1234 <br/>
+Expiring 08/2020
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1ABC9C">
+    	<mj-column>
+      	<mj-text align="center" color="#ffffff" font-size="20px" line-height="34px" font-weight="400" font-family="Open Sans">
+          Tell Your Friends
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="14px" line-height="17px" font-weight="400" font-family="Open Sans">
+        	Share your unique URL with friends and every time they sign up you get $5 credit.
+        </mj-text>
+        <mj-button href="short.url/12345" background-color="rgba(255, 255, 255, 0.2);" font-weight="700" font-size="14px" line-height="17px" border="1px dashed  #ffffff">
+        	short.url/12345
+        </mj-button>
+        <mj-social icon-size="48px">
+        	<mj-social-element name='twitter'>
+          </mj-social-element>
+          <mj-social-element name="facebook"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+        <mj-button font-family="Open Sans" href="#" border-radius="7px" background-color="#3498DB" width="160px" height="42px">
+        	View My Account
+        </mj-button>
+      	<mj-text font-family="Open Sans" color="#222222" font-size="14px" line-height="17px" font-weight="400">Thanks for being a great customer.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
